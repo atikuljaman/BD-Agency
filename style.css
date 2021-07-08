@@ -92,20 +92,9 @@
   text-transform: uppercase;
 }
 
-.row h2 {
+.container .title {
   font-size: 40px;
   font-weight: 700;
-}
-
-.title::before {
-  content: " ";
-  height: 5px;
-  width: 220px;
-  background-color: #fc944b;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  transform: translateY(63px);
 }
 
 #services .btn-danger {
@@ -272,5 +261,16 @@ footer .btn:hover {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.4);
 }
 footer .desc {
+  margin-bottom: 0px;
   padding-bottom: 30px;
+}
+
+.navbar-toggler {
+  color: white;
+}
+
+.fas {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
 }
